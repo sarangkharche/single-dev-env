@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/com.docker.devenvironments.code'
+mkdir -p bin
+go build -trimpath -o bin/single-dev-env
+make: Leaving directory '/com.docker.devenvironments.code'
+ 
